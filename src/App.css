@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red:#D01C28;
+  --grey:#2e2e2e;
+  --white:#fff;
+}
+
+body {
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.login {
+  all: unset;
+  cursor: pointer;
+  padding: 6px 16px;
+  height: 32px;
+  border-radius: 2px;
+  color: #fff;
+  background: var(--red);
+  font-weight: 500;
+}
+
+/*hero*/
+
+.herosection {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: calc(100vh-72px);
+}
+
+.herosection h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+  letter-spacing: 0%;
+}
+
+.herosection .p {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--grey);
+   margin-top: 30px;
+   max-width: 400px;
+}
+
+.herobtn {
+  display: flex;
+  gap: 41px;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: 300;
+}
+
+.herobtn .shopping {
+  all: unset;
+  cursor: pointer;
+  padding: 6px 16px;
+  height: 32px;
+  border-radius: 2px;
+  color: #fff;
+  background: var(--red);
+  font-weight: 500;
+}
+
+.herobtn .category {
+  all: unset;
+  cursor: pointer;
+  padding: 6px 16px;
+  height: 32px;
+  border-radius: 2px;
+  background: var(--white);
+  color: var(--grey);
+  border-color: var(--grey);
+  border: 2px solid #2e2e2e;
+}
+
+.link p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-top: 30px;
+  
+}
+
+.logo {
+  display: flex;
+  gap: 16px;
+}
